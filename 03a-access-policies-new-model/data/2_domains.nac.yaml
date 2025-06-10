@@ -1,0 +1,7 @@
+apic:
+  new_interface_configuration: true
+  access_policies:
+
+# L3 Domains
+    routed_domains:
+      - name: dcloud.vrf-01

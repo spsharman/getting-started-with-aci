@@ -1,0 +1,41 @@
+# Notes: configures VRFs and Bridge Domains
+
+---
+apic:
+  tenants:
+    - name: dCloud
+      managed: true
+      description: Configured by NAC
+
+# VRFs
+      vrfs:
+        - name: dCloud.vrf-01
+
+# Bridge Domains
+      bridge_domains:
+        - name: 192.168.20.0_24
+          unknown_unicast: proxy
+          vrf: dCloud.vrf-01
+          subnets:
+            - ip: 192.168.20.1/24
+              public: false
+              shared: false
+              nd_ra_prefix: false
+
+        - name: 192.168.21.0_24
+          unknown_unicast: proxy
+          vrf: dCloud.vrf-01
+          subnets:
+            - ip: 192.168.21.1/24
+              public: false
+              shared: false
+              nd_ra_prefix: false
+
+        - name: 192.168.22.0_24
+          unknown_unicast: proxy
+          vrf: dCloud.vrf-01
+          subnets:
+            - ip: 192.168.22.1/24
+              public: false
+              shared: false
+              nd_ra_prefix: false
