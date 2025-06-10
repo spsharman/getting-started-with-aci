@@ -1,5 +1,4 @@
 apic:
-  new_interface_configuration: true
   access_policies:
 
 # L3 Domains

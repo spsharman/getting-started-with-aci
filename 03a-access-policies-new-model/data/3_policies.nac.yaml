@@ -1,6 +1,5 @@
 ---
 apic:
-  new_interface_configuration: true
   
 # Node (switch) policies
   node_policies:
