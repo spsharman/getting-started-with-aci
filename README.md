@@ -2,7 +2,7 @@
 
 # ACI NAC for "getting-started-with-cisco-aci-6.0-v1.1"
 
-This code is was created for the CISCOU-2065 which was presented at Cisco Live 2025 in San Diego.
+This code is was created for the CISCOU-2065 presentation at Cisco Live 2025 in San Diego.
 
 ## Getting started
 
