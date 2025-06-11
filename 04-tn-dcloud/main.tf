@@ -20,8 +20,8 @@ module "aci" {
 
   # yaml_directories = ["data"]
 
-  # yaml_files = ["data/01-creates-tenants-vrf-and-bridge-domains.nac.yaml"]
-  yaml_files = ["data/02-adds-epgs.nac.yaml"]
+  yaml_files = ["data/01-creates-tenants-vrf-and-bridge-domains.nac.yaml"]
+  # yaml_files = ["data/02-adds-epgs.nac.yaml"]
   # yaml_files = ["data/03-adds-single-esg-for-all-epgs.nac.yaml"]
   # yaml_files = ["data/04-adds-finance-esgs-and-contracts.nac.yaml"]
   # yaml_files = ["data/99-full-configuration.nac.yaml"]

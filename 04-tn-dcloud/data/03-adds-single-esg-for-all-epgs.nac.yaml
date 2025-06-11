@@ -67,7 +67,7 @@ apic:
                   deployment_immediacy: immediate
                   resolution_immediacy: immediate
 
-        - name: 'epg-matched-security-group'
+        - name: 'epg-matched-security-groups'
           endpoint_security_groups:
             - name: all-epgs
               vrf: dCloud.vrf-01

@@ -4,9 +4,9 @@
 **/*.tfstate.*
 
 # Exclude Terraform variable files
-*.tfvars
-*.tfvars.json
-**/*.tfvars.json
+# *.tfvars
+# *.tfvars.json
+# **/*.tfvars.json
 
 # Exclude Terraform plan files
 plan.out
