@@ -8,7 +8,7 @@ This code is was created for the CISCOU-2065 presentation at Cisco Live 2025 in 
 
 - Schedule the ["getting-started-with-cisco-aci-6.0-v1.1"](https://dcloud2-lon.cisco.com/content/demo/614928) on the Cisco dCloud from your preferred closest location
 - Install [Terraform](https://developer.hashicorp.com/terraform/install)
-- Download the [code](https://github.com/spsharman/getting-started-with-aci.git) to your local machine
+- Download the [code](https://github.com/spsharman/getting-started-with-aci.git) from this repo to your local machine
 
 Once the code is downloaded you will see the following directory structure:
 
@@ -53,7 +53,7 @@ The tenant options show how to migrate from a "network centric" design to an "ap
 
 ![tenant](assets/image-large.gif)
 
-## Initializing Terraform
+## Using NAC to configure your network
 
 Each plan directory will need to have terraform initialized, to do this simply open a command line prompt inside each of the directories and enter `terraform init`.
 
